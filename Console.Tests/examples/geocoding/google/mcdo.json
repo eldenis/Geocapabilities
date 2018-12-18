@@ -1,0 +1,77 @@
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "Tlacoquemecatl del Valle",
+                    "short_name": "Tlacoquemecatl del Valle",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Colonia Benito Juárez",
+                    "short_name": "Colonia Benito Juárez",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ciudad de México",
+                    "short_name": "CDMX",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Mexico",
+                    "short_name": "MX",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "03810",
+                    "short_name": "03810",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "Avenida de los Insurgentes Sur No. 1122, Tlacoquemecatl del Valle, 03810 Colonia Benito Juárez, CDMX, Mexico",
+            "geometry": {
+                "location": {
+                    "lat": 19.3793673,
+                    "lng": -99.176643
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 19.3807162802915,
+                        "lng": -99.17529401970849
+                    },
+                    "southwest": {
+                        "lat": 19.3780183197085,
+                        "lng": -99.17799198029151
+                    }
+                }
+            },
+            "place_id": "ChIJ6f51kpz_0YURT8YL6LhR0H0",
+            "plus_code": {
+                "compound_code": "9RHF+P8 Mexico City, Mexico",
+                "global_code": "76F29RHF+P8"
+            },
+            "types": [
+                "establishment",
+                "food",
+                "point_of_interest",
+                "restaurant"
+            ]
+        }
+    ],
+    "status": "OK"
+}

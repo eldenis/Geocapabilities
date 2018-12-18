@@ -10,6 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="examples\geocoding\google\mcdo.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="examples\geocoding\google\noresults.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

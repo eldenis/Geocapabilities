@@ -1,15 +1,19 @@
-﻿namespace Geocapabilities
+﻿using Newtonsoft.Json;
+
+namespace Geocapabilities
 {
 
     public struct GeoPoint
     {
+        [JsonProperty("lat")]
         public double Latitude { get; }
+        [JsonProperty("lng")]
         public double Longitude { get; }
 
-        public GeoPoint(double lt, double lg)
+        public GeoPoint(double lat, double lng)
         {
-            Latitude = lt;
-            Longitude = lg;
+            Latitude = lat;
+            Longitude = lng;
         }
     }
 }

@@ -55,7 +55,7 @@
         public Bounds Bounds { get; set; }
 
         [JsonProperty("location")]
-        public Location Location { get; set; }
+        public GeoPoint Location { get; set; }
 
         [JsonProperty("location_type")]
         public string LocationType { get; set; }
@@ -67,18 +67,11 @@
     public partial class Bounds
     {
         [JsonProperty("northeast")]
-        public Location Northeast { get; set; }
+        public GeoPoint Northeast { get; set; }
 
         [JsonProperty("southwest")]
-        public Location Southwest { get; set; }
+        public GeoPoint Southwest { get; set; }
     }
 
-    public partial class Location
-    {
-        [JsonProperty("lat")]
-        public double Lat { get; set; }
-
-        [JsonProperty("lng")]
-        public double Lng { get; set; }
-    }
+   
 }
