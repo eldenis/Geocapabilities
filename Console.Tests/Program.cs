@@ -4,7 +4,7 @@ namespace Console.Tests
 {
     internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             var florida = new PolygonFence.GeoPoint(19.3806445, -99.1791765);
 
