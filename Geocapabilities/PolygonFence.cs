@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Geocapabilities
 {
-    public partial class PolygonFence
+    public static class PolygonFence
     {
         public static bool IsPointInPolygon(IList<GeoPoint> poly, GeoPoint point)
         {
