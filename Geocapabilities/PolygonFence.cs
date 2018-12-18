@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Geofencing
+namespace Geocapabilities
 {
     public partial class PolygonFence
     {

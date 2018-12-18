@@ -1,0 +1,85 @@
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "Parque hundido",
+                    "short_name": "Parque hundido",
+                    "types": [
+                        "establishment",
+                        "park",
+                        "point_of_interest"
+                    ]
+                },
+                {
+                    "long_name": "Extremadura Insurgentes",
+                    "short_name": "Extremadura Insurgentes",
+                    "types": [
+                        "neighborhood",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ciudad de México",
+                    "short_name": "México D.F.",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Ciudad de México",
+                    "short_name": "CDMX",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "Mexico",
+                    "short_name": "MX",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "03740",
+                    "short_name": "03740",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "Parque hundido, Av. Insurgentes Sur S/N, Benito Juárez, Extremadura Insurgentes, 03740 Ciudad de México, CDMX, Mexico",
+            "geometry": {
+                "location": {
+                    "lat": 19.3782922,
+                    "lng": -99.17874719999999
+                },
+                "location_type": "GEOMETRIC_CENTER",
+                "viewport": {
+                    "northeast": {
+                        "lat": 19.3796411802915,
+                        "lng": -99.17739821970848
+                    },
+                    "southwest": {
+                        "lat": 19.3769432197085,
+                        "lng": -99.1800961802915
+                    }
+                }
+            },
+            "place_id": "ChIJbU2eV4P_0YURBPZef1PTCtM",
+            "plus_code": {
+                "compound_code": "9RHC+8G Mexico City, Mexico",
+                "global_code": "76F29RHC+8G"
+            },
+            "types": [
+                "establishment",
+                "park",
+                "point_of_interest"
+            ]
+        }
+    ],
+    "status": "OK"
+}
